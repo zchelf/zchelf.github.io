@@ -19,10 +19,13 @@ body {
 
 ul { 
     text-align: center;
+    list-style-type: none;
     display:inline-block; margin:0 auto; 
     font-family: 'Open Sans Condensed', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30 px;
 }
 
 h3 {
@@ -32,6 +35,11 @@ h3 {
 
 #rightList {
     border-right: 2px solid black;
+    font-size: 150%;
+}
+
+#leftList {
+    font-size: 150%;
 }
 
 #head {
@@ -42,10 +50,30 @@ a {
     padding: 7px;
     text-decoration: none;
     color:  black;
-    border: 2px solid black;
+    
 }
 
 #description {
-    padding-left:500px;
-    padding-right:500px;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+#resume {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#contact {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#experience {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#moreInfo {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
